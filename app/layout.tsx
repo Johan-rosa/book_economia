@@ -21,14 +21,16 @@ export const metadata: Metadata = {
       'El primer libro de economía con ejemplos apegados al contexto y la historia económica de la República Dominicana.',
     url: 'https://empirica.do',
     siteName: 'Fundación Empírica',
+    images: [{ url: '/images/logo-empirica.png', alt: 'Fundación Empírica' }],
     locale: 'es_DO',
     type: 'website',
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'Introducción a la Economía | Fundación Empírica',
     description:
       'El primer libro de economía con ejemplos apegados al contexto y la historia económica de la República Dominicana.',
+    images: ['/images/logo-empirica.png'],
   },
   icons: {
     icon: [
