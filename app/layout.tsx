@@ -11,9 +11,25 @@ const _dmSerif = DM_Serif_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://empirica.do'),
   title: 'Introducción a la Economía: Una visión desde la República Dominicana | Fundación Empírica',
   description:
     'Introducción a la Economía con ejemplos apegados al contexto y la historia económica de la República Dominicana. Por Fundación Empírica.',
+  openGraph: {
+    title: 'Introducción a la Economía | Fundación Empírica',
+    description:
+      'El primer libro de economía con ejemplos apegados al contexto y la historia económica de la República Dominicana.',
+    url: 'https://empirica.do',
+    siteName: 'Fundación Empírica',
+    locale: 'es_DO',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Introducción a la Economía | Fundación Empírica',
+    description:
+      'El primer libro de economía con ejemplos apegados al contexto y la historia económica de la República Dominicana.',
+  },
   icons: {
     icon: [
       {
