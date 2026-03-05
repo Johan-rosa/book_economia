@@ -1,6 +1,7 @@
 # ============================================================
-# SECCIÓN: CAPÍTULOS DEL LIBRO
-# Para agregar o quitar capítulos, simplemente edita la lista.
+# SECCIÓN: CAPÍTULOS DEL LIBRO (agrupados por sección)
+# Cada sección tiene subsecciones, y cada subsección tiene
+# una lista de capítulos. El título de subsección es opcional.
 # ============================================================
 
 section:
@@ -11,191 +12,215 @@ section:
     macroeconomía, con énfasis en el contexto y la historia
     de la República Dominicana.
 
-items:
+sections:
 
-  # ----- Sección 1: Fundamentos -----
+  - number: "1"
+    title: "Fundamentos"
+    subsections:
+      - chapters:
+          - number: "01"
+            title: "La economía como ciencia"
+            description: >
+              Escasez, necesidades, deseos y recursos. Economía positiva y normativa,
+              macro y microeconomía. Principios fundamentales del análisis económico
+              y frontera de posibilidades de producción.
 
-  - number: "01"
-    title: "La economía como ciencia"
-    description: >
-      Escasez, necesidades, deseos y recursos. Economía positiva y normativa,
-      macro y microeconomía. Principios fundamentales del análisis económico
-      y frontera de posibilidades de producción.
+          - number: "02"
+            title: "La economía como sistema"
+            description: >
+              La mano invisible y el mercado. El flujo circular. El rol del gobierno,
+              el intercambio, la ventaja comparativa y la eficiencia.
 
-  - number: "02"
-    title: "La economía como sistema"
-    description: >
-      La mano invisible y el mercado. El flujo circular. El rol del gobierno,
-      el intercambio, la ventaja comparativa y la eficiencia.
+          - number: "03"
+            title: "Las teorías económicas y los modelos"
+            description: >
+              Breve historia del pensamiento económico y el rol de los supuestos
+              en la construcción de modelos.
 
-  - number: "03"
-    title: "Las teorías económicas y los modelos"
-    description: >
-      Breve historia del pensamiento económico y el rol de los supuestos
-      en la construcción de modelos.
+  - number: "2"
+    title: "Microeconomía: comportamiento individual y empresarial"
+    subsections:
+      - title: "¿Cómo funcionan los mercados?"
+        chapters:
+          - number: "04"
+            title: "Oferta y Demanda"
+            description: >
+              Fundamentos del análisis de mercados a través de la oferta y la
+              demanda como herramienta central del pensamiento económico.
 
-  # ----- Sección 2: Microeconomía -----
+          - number: "05"
+            title: "Elasticidad"
+            description: >
+              Elasticidad precio, ingreso y cruzada. Aplicaciones prácticas
+              al análisis de mercados y políticas públicas.
 
-  - number: "04"
-    title: "Oferta y Demanda"
-    description: >
-      Fundamentos del análisis de mercados a través de la oferta y la
-      demanda como herramienta central del pensamiento económico.
+          - number: "06"
+            title: "Intervención del gobierno en el mercado"
+            description: >
+              Controles de precios e impuestos. Efectos de la regulación
+              gubernamental sobre el funcionamiento de los mercados.
 
-  - number: "05"
-    title: "Elasticidad"
-    description: >
-      Elasticidad precio, ingreso y cruzada. Aplicaciones prácticas
-      al análisis de mercados y políticas públicas.
+      - title: "¿Cómo decide el consumidor?"
+        chapters:
+          - number: "07"
+            title: "El consumidor y su toma de decisiones"
+            description: >
+              Proceso de toma de decisiones del consumidor desde
+              el enfoque neoclásico de la utilidad.
 
-  - number: "06"
-    title: "Intervención del gobierno en el mercado"
-    description: >
-      Controles de precios e impuestos. Efectos de la regulación
-      gubernamental sobre el funcionamiento de los mercados.
+          - number: "08"
+            title: "El consumidor y su comportamiento"
+            description: >
+              Economía del comportamiento: sesgos, heurísticas y
+              desviaciones del modelo racional.
 
-  - number: "07"
-    title: "El consumidor y su toma de decisiones"
-    description: >
-      Proceso de toma de decisiones del consumidor desde
-      el enfoque neoclásico de la utilidad.
+      - title: "¿Cómo deciden las empresas?"
+        chapters:
+          - number: "09"
+            title: "Las empresas: producción"
+            description: >
+              Proceso de toma de decisiones empresariales en materia
+              de producción, insumos y tecnología.
 
-  - number: "08"
-    title: "El consumidor y su comportamiento"
-    description: >
-      Economía del comportamiento: sesgos, heurísticas y
-      desviaciones del modelo racional.
+          - number: "10"
+            title: "Las empresas: costos y maximización de beneficios"
+            description: >
+              Estructura de costos de la empresa y criterios para
+              la maximización de beneficios.
 
-  - number: "09"
-    title: "Las empresas: producción"
-    description: >
-      Proceso de toma de decisiones empresariales en materia
-      de producción, insumos y tecnología.
+      - title: "¿Cómo se organizan los mercados?"
+        chapters:
+          - number: "11"
+            title: "La competencia perfecta"
+            description: >
+              La utopía de la competencia perfecta como modelo de
+              referencia para el análisis de mercados eficientes.
 
-  - number: "10"
-    title: "Las empresas: costos y maximización de beneficios"
-    description: >
-      Estructura de costos de la empresa y criterios para
-      la maximización de beneficios.
+          - number: "12"
+            title: "El monopolio"
+            description: >
+              Poder de mercado, fijación de precios y pérdida de
+              eficiencia en mercados monopólicos.
 
-  - number: "11"
-    title: "La competencia perfecta"
-    description: >
-      La utopía de la competencia perfecta como modelo de
-      referencia para el análisis de mercados eficientes.
+          - number: "13"
+            title: "El oligopolio y la competencia monopolista"
+            description: >
+              Estructuras de mercado intermedias: diferenciación de
+              productos, interdependencia estratégica y equilibrio.
 
-  - number: "12"
-    title: "El monopolio"
-    description: >
-      Poder de mercado, fijación de precios y pérdida de
-      eficiencia en mercados monopólicos.
+          - number: "14"
+            title: "El comportamiento estratégico: teoría de juegos"
+            description: >
+              Fundamentos de la teoría de juegos aplicados al análisis
+              de decisiones empresariales y de política pública.
 
-  - number: "13"
-    title: "El oligopolio y la competencia monopolista"
-    description: >
-      Estructuras de mercado intermedias: diferenciación de
-      productos, interdependencia estratégica y equilibrio.
+      - title: "¿Por qué fallan los mercados?"
+        chapters:
+          - number: "15"
+            title: "Información asimétrica"
+            description: >
+              Riesgo moral y selección adversa: cómo la información
+              imperfecta afecta el funcionamiento de los mercados.
 
-  - number: "14"
-    title: "El comportamiento estratégico: teoría de juegos"
-    description: >
-      Fundamentos de la teoría de juegos aplicados al análisis
-      de decisiones empresariales y de política pública.
+          - number: "16"
+            title: "Externalidades"
+            description: >
+              Soluciones privadas y públicas. Ejemplos dominicanos.
+              Teorema de Coase, impuestos piguvianos y cambio climático.
 
-  - number: "15"
-    title: "Información asimétrica"
-    description: >
-      Riesgo moral y selección adversa: cómo la información
-      imperfecta afecta el funcionamiento de los mercados.
+          - number: "17"
+            title: "Bienes públicos"
+            description: >
+              Clasificación de bienes, el problema del free rider
+              y la tragedia de los comunes.
 
-  - number: "16"
-    title: "Externalidades"
-    description: >
-      Soluciones privadas y públicas. Ejemplos dominicanos.
-      Teorema de Coase, impuestos piguvianos y cambio climático.
+  - number: "3"
+    title: "Macroeconomía: comportamiento de la economía en su conjunto"
+    subsections:
+      - title: "¿Cómo se mide una economía?"
+        chapters:
+          - number: "18"
+            title: "PIB nominal y real"
+            description: >
+              Indicadores macroeconómicos y estructura de la economía
+              dominicana en comparación con otros países.
 
-  - number: "17"
-    title: "Bienes públicos"
-    description: >
-      Clasificación de bienes, el problema del free rider
-      y la tragedia de los comunes.
+          - number: "19"
+            title: "Inflación"
+            description: >
+              IPC, deflactor y canasta familiar. Medición, teoría
+              e historia de la inflación en la República Dominicana.
 
-  # ----- Sección 3: Macroeconomía -----
+          - number: "20"
+            title: "Desempleo"
+            description: >
+              Mercado laboral, oferta y demanda de trabajo. Principales
+              indicadores, productividad e informalidad en RD.
 
-  - number: "18"
-    title: "PIB nominal y real"
-    description: >
-      Indicadores macroeconómicos y estructura de la economía
-      dominicana en comparación con otros países.
+      - title: "¿Cuál es el rol del sistema financiero?"
+        chapters:
+          - number: "21"
+            title: "Dinero y sistema financiero"
+            description: >
+              Intermediación financiera, regulación y supervisión
+              del sistema financiero dominicano.
 
-  - number: "19"
-    title: "Inflación"
-    description: >
-      IPC, deflactor y canasta familiar. Medición, teoría
-      e historia de la inflación en la República Dominicana.
+          - number: "22"
+            title: "Ahorro, inversión y tasa de interés"
+            description: >
+              Relación entre el ahorro, la inversión y la determinación
+              de la tasa de interés en la economía.
 
-  - number: "20"
-    title: "Desempleo"
-    description: >
-      Mercado laboral, oferta y demanda de trabajo. Principales
-      indicadores, productividad e informalidad en RD.
+          - number: "23"
+            title: "Mercados financieros"
+            description: >
+              Acciones, bonos y bolsa de valores. Funcionamiento
+              de los mercados de capitales.
 
-  - number: "21"
-    title: "Dinero y sistema financiero"
-    description: >
-      Intermediación financiera, regulación y supervisión
-      del sistema financiero dominicano.
+      - title: "¿Cómo se comporta la economía en el corto y largo plazo?"
+        chapters:
+          - number: "24"
+            title: "Crecimiento económico"
+            description: >
+              Determinantes del crecimiento, cambio tecnológico
+              e impacto de la Inteligencia Artificial en la economía.
 
-  - number: "22"
-    title: "Ahorro, inversión y tasa de interés"
-    description: >
-      Relación entre el ahorro, la inversión y la determinación
-      de la tasa de interés en la economía.
+          - number: "25"
+            title: "La demanda y oferta agregada"
+            description: >
+              Modelo de demanda y oferta agregada para el análisis
+              del equilibrio macroeconómico.
 
-  - number: "23"
-    title: "Mercados financieros"
-    description: >
-      Acciones, bonos y bolsa de valores. Funcionamiento
-      de los mercados de capitales.
+          - number: "26"
+            title: "Los ciclos económicos"
+            description: >
+              Fases del ciclo económico, fluctuaciones del producto
+              y políticas de estabilización.
 
-  - number: "24"
-    title: "Crecimiento económico"
-    description: >
-      Determinantes del crecimiento, cambio tecnológico
-      e impacto de la Inteligencia Artificial en la economía.
+      - title: "¿Cómo influye la economía global sobre la dominicana?"
+        chapters:
+          - number: "27"
+            title: "Tipo de cambio, flujo de capitales y balanza de pagos"
+            description: >
+              Determinación del tipo de cambio, movimientos de capital
+              y estructura de la balanza de pagos dominicana.
 
-  - number: "25"
-    title: "La demanda y oferta agregada"
-    description: >
-      Modelo de demanda y oferta agregada para el análisis
-      del equilibrio macroeconómico.
+          - number: "28"
+            title: "Comercio internacional"
+            description: >
+              Globalización e integración comercial. El DR-CAFTA
+              y su impacto en la economía dominicana.
 
-  - number: "26"
-    title: "Los ciclos económicos"
-    description: >
-      Fases del ciclo económico, fluctuaciones del producto
-      y políticas de estabilización.
+      - title: "¿Cómo maneja el gobierno la economía?"
+        chapters:
+          - number: "29"
+            title: "Política fiscal y tributaria"
+            description: >
+              Presupuesto, impuestos, gasto público y déficit. Deuda,
+              subsidios, gasto tributario, evasión y elusión fiscal.
 
-  - number: "27"
-    title: "Tipo de cambio, flujo de capitales y balanza de pagos"
-    description: >
-      Determinación del tipo de cambio, movimientos de capital
-      y estructura de la balanza de pagos dominicana.
-
-  - number: "28"
-    title: "Comercio internacional"
-    description: >
-      Globalización e integración comercial. El DR-CAFTA
-      y su impacto en la economía dominicana.
-
-  - number: "29"
-    title: "Política fiscal y tributaria"
-    description: >
-      Presupuesto, impuestos, gasto público y déficit. Deuda,
-      subsidios, gasto tributario, evasión y elusión fiscal.
-
-  - number: "30"
-    title: "La política monetaria y el Banco Central"
-    description: >
-      Instrumentos de política monetaria y mecanismos de
-      transmisión en el contexto dominicano.
+          - number: "30"
+            title: "La política monetaria y el Banco Central"
+            description: >
+              Instrumentos de política monetaria y mecanismos de
+              transmisión en el contexto dominicano.

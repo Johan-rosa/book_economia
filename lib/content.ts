@@ -102,9 +102,20 @@ export interface ChapterItem {
   description: string
 }
 
+export interface ChapterSubsection {
+  title?: string
+  chapters: ChapterItem[]
+}
+
+export interface ChapterSection {
+  number: string
+  title: string
+  subsections: ChapterSubsection[]
+}
+
 export interface ChaptersContent {
   section: { badge: string; title: string; description: string }
-  items: ChapterItem[]
+  sections: ChapterSection[]
 }
 
 export function getChaptersContent(): ChaptersContent {
