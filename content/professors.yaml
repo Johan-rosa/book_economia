@@ -1,0 +1,52 @@
+# ============================================================
+# SECCIÓN: MATERIAL PARA DOCENTES
+# Edita los recursos ofrecidos y los textos del formulario.
+# Iconos disponibles: FileText, BookOpenCheck, GraduationCap
+# ============================================================
+
+section:
+  badge: "Para docentes"
+  title: "Material de apoyo para catedráticos"
+  description: >
+    Si imparte docencia en economía, solicite acceso gratuito a
+    nuestro material complementario diseñado para enriquecer su
+    cátedra con el contexto dominicano.
+
+resources:
+  - icon: "FileText"
+    title: "Presentaciones por capítulo"
+    description: "Diapositivas listas para usar en el aula con gráficos y datos actualizados."
+
+  - icon: "BookOpenCheck"
+    title: "Banco de ejercicios"
+    description: "Problemas y casos de estudio con soluciones para evaluar a sus estudiantes."
+
+  - icon: "GraduationCap"
+    title: "Guía del docente"
+    description: "Estrategias pedagógicas, cronogramas sugeridos y recursos complementarios."
+
+form:
+  title: "Solicitar material de apoyo"
+  button: "Solicitar acceso"
+  button_loading: "Enviando..."
+  success_title: "Solicitud recibida"
+  success_message: >
+    Revisaremos su solicitud y le enviaremos el material a su
+    correo institucional en las próximas 48 horas.
+  fields:
+    - id: "prof-name"
+      label: "Nombre completo"
+      type: "text"
+      placeholder: "Dr. Juan Pérez"
+    - id: "prof-email"
+      label: "Correo institucional"
+      type: "email"
+      placeholder: "jperez@universidad.edu.do"
+    - id: "prof-university"
+      label: "Universidad / Institución"
+      type: "text"
+      placeholder: "INTEC, PUCMM, UASD..."
+    - id: "prof-course"
+      label: "Asignatura que imparte"
+      type: "text"
+      placeholder: "Macroeconomía, Economía Dominicana..."

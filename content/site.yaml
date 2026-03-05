@@ -1,0 +1,81 @@
+# ============================================================
+# CONTENIDO GENERAL DEL SITIO
+# Edita este archivo para cambiar textos del header, hero,
+# footer y la sección de newsletter.
+# ============================================================
+
+# ------ Información general ------
+site_name: "Introducción a la Economía"
+site_url: "https://empirica.do"
+logo: "/images/logo-empirica.png"
+logo_alt: "Fundación Empírica"
+book_cover: "/images/book-cover.jpg"
+book_cover_alt: "Portada del libro Introducción a la Economía: Una visión desde la República Dominicana"
+
+# ------ Navegación ------
+nav:
+  - label: "El Libro"
+    href: "#libro"
+  - label: "Contenido"
+    href: "#contenido"
+  - label: "Docentes"
+    href: "#docentes"
+
+nav_cta:
+  label: "Suscribirse"
+  href: "#suscribete"
+
+# ------ Hero Section ------
+hero:
+  badge: "Nueva publicación"
+  title: "Introducción a la Economía"
+  subtitle: "Una visión desde la República Dominicana"
+  description: >
+    El primer libro de economía con ejemplos apegados al contexto y la
+    historia económica de la República Dominicana. Desde las reformas
+    monetarias hasta las zonas francas, cada concepto cobra vida con
+    datos reales.
+  cta_primary:
+    label: "Recibir actualizaciones"
+    href: "#suscribete"
+  cta_secondary:
+    label: "Explorar contenido"
+    href: "#contenido"
+  byline: "Una publicación de Fundación Empírica"
+
+# ------ Newsletter ------
+newsletter:
+  badge: "Mantente informado"
+  title: "Suscríbete para recibir actualizaciones"
+  description: >
+    Recibe noticias sobre la fecha de lanzamiento, eventos de
+    presentación y artículos exclusivos sobre economía dominicana.
+  placeholder: "tu@correo.com"
+  button: "Suscribirme"
+  button_loading: "Suscribiendo..."
+  success: "Te has suscrito correctamente. Pronto recibirás noticias."
+  disclaimer: "Sin spam. Solo contenido relevante sobre economía dominicana."
+
+# ------ Footer ------
+footer:
+  description: >
+    Produciendo conocimiento económico riguroso y accesible para la
+    República Dominicana.
+  nav_title: "Navegación"
+  links:
+    - label: "El Libro"
+      href: "#libro"
+    - label: "Contenido"
+      href: "#contenido"
+    - label: "Docentes"
+      href: "#docentes"
+  brand_title: "Empírica"
+  brand_links:
+    - label: "empirica.do"
+      href: "https://empirica.do"
+      external: true
+    - label: "Suscribirse"
+      href: "#suscribete"
+      external: false
+  copyright: "© 2026 Fundación Empírica. Todos los derechos reservados."
+  location: "Santo Domingo, República Dominicana"

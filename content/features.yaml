@@ -1,0 +1,50 @@
+# ============================================================
+# SECCIÓN: CARACTERÍSTICAS DEL LIBRO
+# Cada entrada tiene un icono, título y descripción.
+# Iconos disponibles: Globe, Landmark, TrendingUp, BarChart3,
+#                     Users, BookOpen
+# ============================================================
+
+section:
+  badge: "Contenido del libro"
+  title: "Economía con identidad dominicana"
+  description: >
+    No es solo teoría. Es la historia económica de tu país traducida en
+    principios que puedes aplicar, enseñar y debatir.
+
+items:
+  - icon: "Globe"
+    title: "Contexto Dominicano"
+    description: >
+      Cada capítulo utiliza datos y ejemplos de la economía dominicana:
+      PIB, inflación, tipo de cambio y más.
+
+  - icon: "Landmark"
+    title: "Historia Económica"
+    description: >
+      Desde la era de Trujillo hasta el DR-CAFTA, recorre los hitos
+      que definieron la economía del país.
+
+  - icon: "TrendingUp"
+    title: "Análisis de Políticas"
+    description: >
+      Evalúa las políticas monetarias del Banco Central y las reformas
+      fiscales con un lente riguroso y accesible.
+
+  - icon: "BarChart3"
+    title: "Datos Reales"
+    description: >
+      Gráficos y tablas basados en cifras del Banco Central, ONE y
+      organismos internacionales.
+
+  - icon: "Users"
+    title: "Sectores Clave"
+    description: >
+      Turismo, zonas francas, remesas y agricultura: los motores
+      económicos dominicanos explicados a fondo.
+
+  - icon: "BookOpen"
+    title: "Enfoque Pedagógico"
+    description: >
+      Diseñado para la docencia universitaria con ejercicios, casos
+      de estudio y preguntas de reflexión.

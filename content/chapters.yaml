@@ -1,0 +1,63 @@
+# ============================================================
+# SECCIÓN: CAPÍTULOS DEL LIBRO
+# Para agregar o quitar capítulos, simplemente edita la lista.
+# El número se genera automáticamente si usas "number",
+# o puedes dejarlo manual.
+# ============================================================
+
+section:
+  badge: "Estructura del libro"
+  title: "8 capítulos, una historia completa"
+  description: >
+    Cada capítulo conecta la teoría económica con la realidad dominicana,
+    creando un recorrido que va de los fundamentos hasta los retos
+    contemporáneos.
+
+items:
+  - number: "01"
+    title: "Fundamentos del Pensamiento Económico"
+    description: >
+      Escasez, costo de oportunidad y toma de decisiones: desde la
+      economía del colmado hasta las políticas públicas.
+
+  - number: "02"
+    title: "El Sistema Monetario Dominicano"
+    description: >
+      La historia del peso dominicano, las funciones del Banco Central
+      y el impacto de la política monetaria.
+
+  - number: "03"
+    title: "Comercio Internacional y DR-CAFTA"
+    description: >
+      Cómo los acuerdos comerciales transformaron la industria, la
+      agricultura y la balanza de pagos del país.
+
+  - number: "04"
+    title: "Zonas Francas y Modelo Exportador"
+    description: >
+      El auge de las zonas francas, su impacto en el empleo y los
+      desafíos de la competitividad global.
+
+  - number: "05"
+    title: "Turismo como Motor Económico"
+    description: >
+      Análisis del sector turístico dominicano, su contribución al PIB
+      y las externalidades sociales.
+
+  - number: "06"
+    title: "Remesas y Economía Familiar"
+    description: >
+      El flujo de remesas desde la diáspora, su efecto en el consumo,
+      inversión y desigualdad.
+
+  - number: "07"
+    title: "Política Fiscal y Deuda Pública"
+    description: >
+      Ingresos tributarios, gasto público y sostenibilidad de la deuda
+      en el contexto dominicano.
+
+  - number: "08"
+    title: "Desigualdad y Desarrollo Humano"
+    description: >
+      Distribución del ingreso, pobreza multidimensional y las políticas
+      sociales en República Dominicana.
