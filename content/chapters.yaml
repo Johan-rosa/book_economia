@@ -1,63 +1,201 @@
 # ============================================================
 # SECCIÓN: CAPÍTULOS DEL LIBRO
 # Para agregar o quitar capítulos, simplemente edita la lista.
-# El número se genera automáticamente si usas "number",
-# o puedes dejarlo manual.
 # ============================================================
 
 section:
   badge: "Estructura del libro"
-  title: "8 capítulos, una historia completa"
+  title: "30 capítulos, tres grandes secciones"
   description: >
-    Cada capítulo conecta la teoría económica con la realidad dominicana,
-    creando un recorrido que va de los fundamentos hasta los retos
-    contemporáneos.
+    Un recorrido completo desde los fundamentos económicos hasta la
+    macroeconomía, con énfasis en el contexto y la historia
+    de la República Dominicana.
 
 items:
+
+  # ----- Sección 1: Fundamentos -----
+
   - number: "01"
-    title: "Fundamentos del Pensamiento Económico"
+    title: "La economía como ciencia"
     description: >
-      Escasez, costo de oportunidad y toma de decisiones: desde la
-      economía del colmado hasta las políticas públicas.
+      Escasez, necesidades, deseos y recursos. Economía positiva y normativa,
+      macro y microeconomía. Principios fundamentales del análisis económico
+      y frontera de posibilidades de producción.
 
   - number: "02"
-    title: "El Sistema Monetario Dominicano"
+    title: "La economía como sistema"
     description: >
-      La historia del peso dominicano, las funciones del Banco Central
-      y el impacto de la política monetaria.
+      La mano invisible y el mercado. El flujo circular. El rol del gobierno,
+      el intercambio, la ventaja comparativa y la eficiencia.
 
   - number: "03"
-    title: "Comercio Internacional y DR-CAFTA"
+    title: "Las teorías económicas y los modelos"
     description: >
-      Cómo los acuerdos comerciales transformaron la industria, la
-      agricultura y la balanza de pagos del país.
+      Breve historia del pensamiento económico y el rol de los supuestos
+      en la construcción de modelos.
+
+  # ----- Sección 2: Microeconomía -----
 
   - number: "04"
-    title: "Zonas Francas y Modelo Exportador"
+    title: "Oferta y Demanda"
     description: >
-      El auge de las zonas francas, su impacto en el empleo y los
-      desafíos de la competitividad global.
+      Fundamentos del análisis de mercados a través de la oferta y la
+      demanda como herramienta central del pensamiento económico.
 
   - number: "05"
-    title: "Turismo como Motor Económico"
+    title: "Elasticidad"
     description: >
-      Análisis del sector turístico dominicano, su contribución al PIB
-      y las externalidades sociales.
+      Elasticidad precio, ingreso y cruzada. Aplicaciones prácticas
+      al análisis de mercados y políticas públicas.
 
   - number: "06"
-    title: "Remesas y Economía Familiar"
+    title: "Intervención del gobierno en el mercado"
     description: >
-      El flujo de remesas desde la diáspora, su efecto en el consumo,
-      inversión y desigualdad.
+      Controles de precios e impuestos. Efectos de la regulación
+      gubernamental sobre el funcionamiento de los mercados.
 
   - number: "07"
-    title: "Política Fiscal y Deuda Pública"
+    title: "El consumidor y su toma de decisiones"
     description: >
-      Ingresos tributarios, gasto público y sostenibilidad de la deuda
-      en el contexto dominicano.
+      Proceso de toma de decisiones del consumidor desde
+      el enfoque neoclásico de la utilidad.
 
   - number: "08"
-    title: "Desigualdad y Desarrollo Humano"
+    title: "El consumidor y su comportamiento"
     description: >
-      Distribución del ingreso, pobreza multidimensional y las políticas
-      sociales en República Dominicana.
+      Economía del comportamiento: sesgos, heurísticas y
+      desviaciones del modelo racional.
+
+  - number: "09"
+    title: "Las empresas: producción"
+    description: >
+      Proceso de toma de decisiones empresariales en materia
+      de producción, insumos y tecnología.
+
+  - number: "10"
+    title: "Las empresas: costos y maximización de beneficios"
+    description: >
+      Estructura de costos de la empresa y criterios para
+      la maximización de beneficios.
+
+  - number: "11"
+    title: "La competencia perfecta"
+    description: >
+      La utopía de la competencia perfecta como modelo de
+      referencia para el análisis de mercados eficientes.
+
+  - number: "12"
+    title: "El monopolio"
+    description: >
+      Poder de mercado, fijación de precios y pérdida de
+      eficiencia en mercados monopólicos.
+
+  - number: "13"
+    title: "El oligopolio y la competencia monopolista"
+    description: >
+      Estructuras de mercado intermedias: diferenciación de
+      productos, interdependencia estratégica y equilibrio.
+
+  - number: "14"
+    title: "El comportamiento estratégico: teoría de juegos"
+    description: >
+      Fundamentos de la teoría de juegos aplicados al análisis
+      de decisiones empresariales y de política pública.
+
+  - number: "15"
+    title: "Información asimétrica"
+    description: >
+      Riesgo moral y selección adversa: cómo la información
+      imperfecta afecta el funcionamiento de los mercados.
+
+  - number: "16"
+    title: "Externalidades"
+    description: >
+      Soluciones privadas y públicas. Ejemplos dominicanos.
+      Teorema de Coase, impuestos piguvianos y cambio climático.
+
+  - number: "17"
+    title: "Bienes públicos"
+    description: >
+      Clasificación de bienes, el problema del free rider
+      y la tragedia de los comunes.
+
+  # ----- Sección 3: Macroeconomía -----
+
+  - number: "18"
+    title: "PIB nominal y real"
+    description: >
+      Indicadores macroeconómicos y estructura de la economía
+      dominicana en comparación con otros países.
+
+  - number: "19"
+    title: "Inflación"
+    description: >
+      IPC, deflactor y canasta familiar. Medición, teoría
+      e historia de la inflación en la República Dominicana.
+
+  - number: "20"
+    title: "Desempleo"
+    description: >
+      Mercado laboral, oferta y demanda de trabajo. Principales
+      indicadores, productividad e informalidad en RD.
+
+  - number: "21"
+    title: "Dinero y sistema financiero"
+    description: >
+      Intermediación financiera, regulación y supervisión
+      del sistema financiero dominicano.
+
+  - number: "22"
+    title: "Ahorro, inversión y tasa de interés"
+    description: >
+      Relación entre el ahorro, la inversión y la determinación
+      de la tasa de interés en la economía.
+
+  - number: "23"
+    title: "Mercados financieros"
+    description: >
+      Acciones, bonos y bolsa de valores. Funcionamiento
+      de los mercados de capitales.
+
+  - number: "24"
+    title: "Crecimiento económico"
+    description: >
+      Determinantes del crecimiento, cambio tecnológico
+      e impacto de la Inteligencia Artificial en la economía.
+
+  - number: "25"
+    title: "La demanda y oferta agregada"
+    description: >
+      Modelo de demanda y oferta agregada para el análisis
+      del equilibrio macroeconómico.
+
+  - number: "26"
+    title: "Los ciclos económicos"
+    description: >
+      Fases del ciclo económico, fluctuaciones del producto
+      y políticas de estabilización.
+
+  - number: "27"
+    title: "Tipo de cambio, flujo de capitales y balanza de pagos"
+    description: >
+      Determinación del tipo de cambio, movimientos de capital
+      y estructura de la balanza de pagos dominicana.
+
+  - number: "28"
+    title: "Comercio internacional"
+    description: >
+      Globalización e integración comercial. El DR-CAFTA
+      y su impacto en la economía dominicana.
+
+  - number: "29"
+    title: "Política fiscal y tributaria"
+    description: >
+      Presupuesto, impuestos, gasto público y déficit. Deuda,
+      subsidios, gasto tributario, evasión y elusión fiscal.
+
+  - number: "30"
+    title: "La política monetaria y el Banco Central"
+    description: >
+      Instrumentos de política monetaria y mecanismos de
+      transmisión en el contexto dominicano.
