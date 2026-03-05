@@ -1,10 +1,4 @@
 import type { ChaptersContent } from "@/lib/content"
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 
 interface ChaptersSectionProps {
   content: ChaptersContent
@@ -28,56 +22,52 @@ export function ChaptersSection({ content }: ChaptersSectionProps) {
           </p>
         </div>
 
-        <Accordion type="single" collapsible defaultValue="section-1">
+        <div className="flex flex-col gap-14">
           {sections.map((sec) => (
-            <AccordionItem key={sec.number} value={`section-${sec.number}`}>
-              <AccordionTrigger className="text-left gap-4 py-5 hover:no-underline">
-                <div className="flex items-baseline gap-3">
-                  <span className="font-serif text-2xl text-accent/60 shrink-0 leading-none">
-                    {sec.number}
-                  </span>
-                  <span className="text-base font-semibold text-foreground">
-                    {sec.title}
-                  </span>
-                </div>
-              </AccordionTrigger>
+            <div key={sec.number}>
+              <div className="flex items-baseline gap-3 mb-8 pb-3 border-b border-border">
+                <span className="font-serif text-2xl text-accent/60 shrink-0 leading-none">
+                  {sec.number}
+                </span>
+                <h3 className="text-lg font-semibold text-foreground">
+                  {sec.title}
+                </h3>
+              </div>
 
-              <AccordionContent className="pb-6">
-                <div className="flex flex-col gap-8 pt-2">
-                  {sec.subsections.map((sub, subIdx) => (
-                    <div key={subIdx} className="flex flex-col gap-4">
-                      {sub.title && (
-                        <p className="text-xs font-semibold uppercase tracking-widest text-accent/80">
-                          {sub.title}
-                        </p>
-                      )}
-                      <div className="grid md:grid-cols-2 gap-3">
-                        {sub.chapters.map((chapter) => (
-                          <div
-                            key={chapter.number}
-                            className="flex gap-4 rounded-lg bg-card border border-border p-4 hover:border-accent/40 transition-colors"
-                          >
-                            <span className="font-serif text-xl text-accent/50 shrink-0 leading-none pt-0.5">
-                              {chapter.number}
-                            </span>
-                            <div className="flex flex-col gap-1">
-                              <h3 className="text-sm font-semibold text-foreground leading-snug">
-                                {chapter.title}
-                              </h3>
-                              <p className="text-xs leading-relaxed text-muted-foreground">
-                                {chapter.description}
-                              </p>
-                            </div>
+              <div className="flex flex-col gap-8">
+                {sec.subsections.map((sub, subIdx) => (
+                  <div key={subIdx} className="flex flex-col gap-4">
+                    {sub.title && (
+                      <p className="text-xs font-semibold uppercase tracking-widest text-accent/80">
+                        {sub.title}
+                      </p>
+                    )}
+                    <div className="grid md:grid-cols-2 gap-3">
+                      {sub.chapters.map((chapter) => (
+                        <div
+                          key={chapter.number}
+                          className="flex gap-4 rounded-lg bg-card border border-border p-4 hover:border-accent/40 transition-colors"
+                        >
+                          <span className="font-serif text-xl text-accent/50 shrink-0 leading-none pt-0.5">
+                            {chapter.number}
+                          </span>
+                          <div className="flex flex-col gap-1">
+                            <h4 className="text-sm font-semibold text-foreground leading-snug">
+                              {chapter.title}
+                            </h4>
+                            <p className="text-xs leading-relaxed text-muted-foreground">
+                              {chapter.description}
+                            </p>
                           </div>
-                        ))}
-                      </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-              </AccordionContent>
-            </AccordionItem>
+                  </div>
+                ))}
+              </div>
+            </div>
           ))}
-        </Accordion>
+        </div>
       </div>
     </section>
   )
